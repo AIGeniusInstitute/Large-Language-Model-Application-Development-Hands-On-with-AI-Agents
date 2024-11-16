@@ -11,81 +11,82 @@ OpenAI API是一个强大的工具，它允许开发者将OpenAI的先进语言�
 OpenAI是一家位于旧金山的人工智能研究实验室，成立于2015年。它的使命是确保人工通用智能（AGI）能够造福全人类。以下是关于OpenAI的一些关键点：
 
 1. 创始背景：
-    - 由Elon Musk、Sam Altman等科技界知名人士共同创立。
-    - 初始承诺投资10亿美元，旨在推动AI的开放研究。
-
+   
+   - 由Elon Musk、Sam Altman等科技界知名人士共同创立。
+   - 初始承诺投资10亿美元，旨在推动AI的开放研究。
 2. 研究重点：
-    - 大型语言模型（如GPT系列）
-    - 强化学习
-    - 机器人学
-    - AI安全和伦理
-
+   
+   - 大型语言模型（如GPT系列）
+   - 强化学习
+   - 机器人学
+   - AI安全和伦理
 3. 主要成就：
-    - GPT（Generative Pre-trained Transformer）系列模型
-    - DALL-E图像生成模型
-    - Codex代码生成模型
-
+   
+   - GPT（Generative Pre-trained Transformer）系列模型
+   - DALL-E图像生成模型
+   - Codex代码生成模型
 4. 商业模式转变：
-    - 从纯粹的非盈利组织转变为"有上限利润"的公司
-    - 通过API服务将研究成果商业化
-
+   
+   - 从纯粹的非盈利组织转变为"有上限利润"的公司
+   - 通过API服务将研究成果商业化
 5. 影响力：
-    - 在NLP领域处于领先地位
-    - 推动了AI民主化，使更多开发者能够使用先进AI技术
-
+   
+   - 在NLP领域处于领先地位
+   - 推动了AI民主化，使更多开发者能够使用先进AI技术
 6. 争议与挑战：
-    - 关于AI安全和伦理的讨论
-    - 模型偏见和错误信息传播的问题
-    - 对就业市场可能造成的影响
+   
+   - 关于AI安全和伦理的讨论
+   - 模型偏见和错误信息传播的问题
+   - 对就业市场可能造成的影响
 
 OpenAI的发展历程可以用以下时间线来概括：
 
-```mermaid
-timeline
-    2015 : OpenAI成立
-    2018 : 发布GPT-1
-    2019 : 发布GPT-2
-    2020 : 发布GPT-3
-         : 推出OpenAI API
-    2021 : 发布DALL-E
-         : 与微软建立独家授权协议
-    2022 : 发布ChatGPT
-         : DALL-E 2公开测试
-    2023 : 发布GPT-4
-         : ChatGPT移动应用推出
+| 年份 | 事件                    |
+|------|-------------------------| 
+| 2015 | OpenAI成立              | 
+| 2018 | 发布GPT-1                | 
+| 2019 | 发布GPT-2                | 
+| 2020 | 发布GPT-3                | 
+|      | 推出OpenAI API          | 
+| 2021 | 发布DALL-E               | 
+|      | 与微软建立独家授权协议    | 
+| 2022 | 发布ChatGPT              | 
+|      | DALL-E2 公开测试         | 
+| 2023 | 发布GPT-4                | 
+|      | ChatGPT移动应用推出      |
 
-%% 自定义样式
-classDef default fill:#ffffff,stroke:#000000,color:#000000;
-```
+
+
 
 OpenAI的技术发展主要集中在以下几个方向：
 
 1. 大型语言模型：
-    - GPT系列：从GPT-1到GPT-4，模型规模和能力不断提升。
-    - InstructGPT：改进模型对指令的理解和执行能力。
-
+   
+   - GPT系列：从GPT-1到GPT-4，模型规模和能力不断提升。
+   - InstructGPT：改进模型对指令的理解和执行能力。
 2. 多模态模型：
-    - DALL-E和DALL-E 2：将文本描述转化为图像。
-    - CLIP：学习文本和图像之间的关联。
-
+   
+   - DALL-E和DALL-E 2：将文本描述转化为图像。
+   - CLIP：学习文本和图像之间的关联。
 3. 代码生成：
-    - Codex：基于自然语言生成代码，是GitHub Copilot的基础。
-
+   
+   - Codex：基于自然语言生成代码，是GitHub Copilot的基础。
 4. 强化学习：
-    - OpenAI Five：在Dota 2游戏中击败人类职业选手。
-    - OpenAI Gym：用于开发和比较强化学习算法的工具包。
-
+   
+   - OpenAI Five：在Dota 2游戏中击败人类职业选手。
+   - OpenAI Gym：用于开发和比较强化学习算法的工具包。
 5. 机器人学：
-    - Dactyl：学习在模拟环境中操纵物理对象。
-
+   
+   - Dactyl：学习在模拟环境中操纵物理对象。
 6. AI安全研究：
-    - 研究AI系统的对抗性攻击和防御。
-    - 探索AI系统的可解释性和透明度。
+   
+   - 研究AI系统的对抗性攻击和防御。
+   - 探索AI系统的可解释性和透明度。
 
 OpenAI的技术进步可以用以下图表来表示：
 
 ```mermaid
-graph TD
+graph LR
     A[OpenAI] --> B[大型语言模型]
     A --> C[多模态模型]
     A --> D[代码生成]
@@ -133,12 +134,12 @@ OpenAI API为Agent开发提供了强大的基础。通过API，我们可以让Ag
 
 1. 对话管理：
    使用API来理解用户输入，生成适当的响应，并维护对话上下文。
-
+   
    ```python
    import openai
-
+   
    openai.api_key = "your-api-key"
-
+   
    def chat_with_agent(user_input, conversation_history):
        prompt = f"{conversation_history}\nHuman: {user_input}\nAI:"
        response = openai.Completion.create(
@@ -147,7 +148,7 @@ OpenAI API为Agent开发提供了强大的基础。通过API，我们可以让Ag
            max_tokens=150
        )
        return response.choices[0].text.strip()
-
+   
    conversation_history = ""
    while True:
        user_input = input("You: ")
@@ -157,10 +158,9 @@ OpenAI API为Agent开发提供了强大的基础。通过API，我们可以让Ag
        print("AI:", ai_response)
        conversation_history += f"Human: {user_input}\nAI: {ai_response}\n"
    ```
-
 2. 任务规划：
    使用API来分解复杂任务并生成执行计划。
-
+   
    ```python
    def generate_task_plan(task_description):
        prompt = f"Create a step-by-step plan to accomplish the following task:\n{task_description}\n\nPlan:"
@@ -170,16 +170,15 @@ OpenAI API为Agent开发提供了强大的基础。通过API，我们可以让Ag
            max_tokens=200
        )
        return response.choices[0].text.strip().split("\n")
-
+   
    task = "Organize a virtual team-building event for a remote team of 20 people"
    plan = generate_task_plan(task)
    for step in plan:
        print(step)
    ```
-
 3. 信息提取：
    使用API从非结构化文本中提取结构化信息。
-
+   
    ```python
    def extract_information(text):
        prompt = f"""
@@ -188,9 +187,9 @@ OpenAI API为Agent开发提供了强大的基础。通过API，我们可以让Ag
        - Age
        - Occupation
        - Location
-
+   
        Text: {text}
-
+   
        Information:
        """
        response = openai.Completion.create(
@@ -199,21 +198,20 @@ OpenAI API为Agent开发提供了强大的基础。通过API，我们可以让Ag
            max_tokens=100
        )
        return response.choices[0].text.strip()
-
+   
    text = "John Doe is a 35-year-old software engineer living in San Francisco, California."
    info = extract_information(text)
    print(info)
    ```
-
 4. 代码生成：
    使用API生成代码片段或完整函数。
-
+   
    ```python
    def generate_code(task_description, programming_language):
        prompt = f"""
        Generate {programming_language} code for the following task:
        {task_description}
-
+   
        {programming_language} code:
        ```{programming_language}
        """
@@ -224,26 +222,25 @@ OpenAI API为Agent开发提供了强大的基础。通过API，我们可以让Ag
            stop=["```"]
        )
        return response.choices[0].text.strip()
-
+   
    task = "Create a function that calculates the factorial of a number"
    language = "python"
    code = generate_code(task, language)
    print(code)
    ```
-
 5. 决策支持：
    使用API来分析情况并提供决策建议。
-
+   
    ```python
    def get_decision_advice(situation, options):
        prompt = f"""
        Situation: {situation}
-
+   
        Options:
        {'\n'.join(f'- {option}' for option in options)}
-
+   
        Analyze the situation and provide advice on the best course of action. Explain your reasoning.
-
+   
        Advice:
        """
        response = openai.Completion.create(
@@ -252,7 +249,7 @@ OpenAI API为Agent开发提供了强大的基础。通过API，我们可以让Ag
            max_tokens=200
        )
        return response.choices[0].text.strip()
-
+   
    situation = "A startup is deciding whether to focus on product development or marketing"
    options = ["Invest more in R&D", "Increase marketing budget", "Balance both equally"]
    advice = get_decision_advice(situation, options)
@@ -385,13 +382,9 @@ while True:
 这个聊天机器人示例展示了几个重要的特性：
 
 1. 对话历史管理：使用`conversation_history`列表来保存整个对话的上下文。
-
 2. 函数调用：定义了`get_weather`、`calculate`和`search_web`三个函数，并在API调用中声明了这些函数。
-
 3. 多轮对话：当API决定调用函数时，程序会执行函数并将结果添加到对话历史中，然后进行第二轮API调用以生成最终响应。
-
 4. 错误处理：在`calculate`函数中，使用了try-except块来处理可能的计算错误。
-
 5. 模拟外部API：虽然这个例子使用了模拟数据，但它展示了如何集成外部API（如天气服务或搜索引擎）。
 
 这个示例可以进一步扩展，例如：
@@ -464,17 +457,18 @@ for url in image_urls:
 在实际项目中使用OpenAI API时，有一些最佳实践和考虑事项：
 
 1. 提示工程（Prompt Engineering）：
-    - 精心设计提示以获得最佳结果。
-    - 使用示例（few-shot learning）来引导模型的输出。
-    - 考虑使用模板化的提示以确保一致性。
-
+   
+   - 精心设计提示以获得最佳结果。
+   - 使用示例（few-shot learning）来引导模型的输出。
+   - 考虑使用模板化的提示以确保一致性。
+   
    ```python
    def generate_product_description(product_name, features):
        prompt = f"""
        Product: {product_name}
        Features:
        {' '.join(f'- {feature}' for feature in features)}
-
+   
        Write a compelling product description in 50-100 words:
        """
        response = openai.Completion.create(
@@ -484,15 +478,15 @@ for url in image_urls:
        )
        return response.choices[0].text.strip()
    ```
-
 2. 错误处理和重试机制：
-    - 实现错误检查和异常处理。
-    - 在遇到API错误时使用指数退避重试。
-
+   
+   - 实现错误检查和异常处理。
+   - 在遇到API错误时使用指数退避重试。
+   
    ```python
    import time
    import random
-
+   
    def api_call_with_retry(func, max_retries=3, base_delay=1):
        retries = 0
        while retries < max_retries:
@@ -504,11 +498,11 @@ for url in image_urls:
                retries += 1
        raise Exception("Max retries exceeded")
    ```
-
 3. 模型选择和参数调优：
-    - 根据任务复杂性和所需响应速度选择合适的模型。
-    - 调整参数如temperature和max_tokens以平衡创造性和一致性。
-
+   
+   - 根据任务复杂性和所需响应速度选择合适的模型。
+   - 调整参数如temperature和max_tokens以平衡创造性和一致性。
+   
    ```python
    def generate_creative_text(prompt, temperature=0.7, max_tokens=100):
        response = openai.Completion.create(
@@ -519,30 +513,30 @@ for url in image_urls:
        )
        return response.choices[0].text.strip()
    ```
-
 4. 缓存和结果重用：
-    - 对于频繁或重复的查询，实现结果缓存。
-    - 考虑使用数据库或分布式缓存系统存储结果。
-
+   
+   - 对于频繁或重复的查询，实现结果缓存。
+   - 考虑使用数据库或分布式缓存系统存储结果。
+   
    ```python
    import redis
-
+   
    redis_client = redis.Redis(host='localhost', port=6379, db=0)
-
+   
    def get_cached_or_generate(prompt, ttl=3600):
        cached_result = redis_client.get(prompt)
        if cached_result:
            return cached_result.decode('utf-8')
-       
+   
        result = generate_creative_text(prompt)
        redis_client.setex(prompt, ttl, result)
        return result
    ```
-
 5. 内容过滤和安全措施：
-    - 实现内容过滤以防止生成不适当或有害的内容。
-    - 使用OpenAI的内容过滤API或实现自定义过滤逻辑。
-
+   
+   - 实现内容过滤以防止生成不适当或有害的内容。
+   - 使用OpenAI的内容过滤API或实现自定义过滤逻辑。
+   
    ```python
    def is_safe_content(text):
        response = openai.Completion.create(
@@ -556,15 +550,15 @@ for url in image_urls:
        output_label = response["choices"][0]["text"]
        return output_label == "0"
    ```
-
 6. 并发和异步处理：
-    - 对于需要处理大量请求的应用，考虑使用异步API调用。
-    - 实现请求批处理以减少API调用次数。
-
+   
+   - 对于需要处理大量请求的应用，考虑使用异步API调用。
+   - 实现请求批处理以减少API调用次数。
+   
    ```python
    import asyncio
    import aiohttp
-
+   
    async def async_generate_text(prompt):
        async with aiohttp.ClientSession() as session:
            async with session.post(
@@ -574,23 +568,23 @@ for url in image_urls:
            ) as resp:
                data = await resp.json()
                return data["choices"][0]["text"]
-
+   
    async def process_prompts(prompts):
        tasks = [async_generate_text(prompt) for prompt in prompts]
        return await asyncio.gather(*tasks)
    ```
-
 7. 监控和日志记录：
-    - 实现详细的日志记录以跟踪API使用和性能。
-    - 设置监控和警报以检测异常使用情况或错误。
-
+   
+   - 实现详细的日志记录以跟踪API使用和性能。
+   - 设置监控和警报以检测异常使用情况或错误。
+   
    ```python
    import logging
    import time
-
+   
    logging.basicConfig(level=logging.INFO)
    logger = logging.getLogger(__name__)
-
+   
    def log_api_call(func):
        def wrapper(*args, **kwargs):
            start_time = time.time()
@@ -599,7 +593,7 @@ for url in image_urls:
            logger.info(f"API call to {func.__name__} took {duration:.2f} seconds")
            return result
        return wrapper
-
+   
    @log_api_call
    def generate_text(prompt):
        return openai.Completion.create(
@@ -618,24 +612,26 @@ LangChain是一个强大的框架，专门为开发基于大语言模型的应�
 LangChain的核心理念是将语言模型与其他计算或知识源结合，以创建更强大的应用程序。它提供了多个主要组件：
 
 1. 提示管理（Prompts）：
-    - 动态构建和优化提示
-    - 提示模板和变量替换
-
+   
+   - 动态构建和优化提示
+   - 提示模板和变量替换
 2. 链（Chains）：
-    - 将多个组件组合成一个连贯的应用
-    - 顺序处理和条件执行
-
+   
+   - 将多个组件组合成一个连贯的应用
+   - 顺序处理和条件执行
 3. 索引（Indexes）：
-    - 高效存储和检索文本数据
-    - 与外部数据源集成
-
+   
+   - 高效存储和检索文本数据
+   - 与外部数据源集成
 4. 记忆（Memory）：
-    - 管理对话历史和上下文
-    - 实现长期和短期记忆机制
-
+   
+   - 管理对话历史和上下文
+   - 实现长期和短期记忆机制
 5. 代理（Agents）：
-    - 创建能够使用工具和做出决策的自主代理
-    - 实现目标导向的行为
+   
+   - 创建能够使用工具和做出决策的自主代理
+   - 实现目标导向的行为
+     [](https://)
 
 LangChain的优势包括：
 
@@ -647,7 +643,7 @@ LangChain的优势包括：
 以下是LangChain的架构概览：
 
 ```mermaid
-graph TD
+graph LR
     A[LangChain] --> B[Prompts]
     A --> C[Chains]
     A --> D[Indexes]
@@ -679,99 +675,100 @@ classDef default fill:#ffffff,stroke:#000000,color:#000000;
 LangChain框架包含六个主要模块，每个模块都专注于特定的功能：
 
 1. 模型 I/O（Models）：
-    - 与各种语言模型进行交互
-    - 支持OpenAI、Hugging Face等多个提供商的模型
-
+   
+   - 与各种语言模型进行交互
+   - 支持OpenAI、Hugging Face等多个提供商的模型
+   
    ```python
    from langchain.llms import OpenAI
-
+   
    llm = OpenAI(temperature=0.9)
    text = "What would be a good company name for a company that makes colorful socks?"
    print(llm(text))
    ```
-
 2. 提示（Prompts）：
-    - 管理和优化发送给语言模型的提示
-    - 提供模板和示例选择器
-
+   
+   - 管理和优化发送给语言模型的提示
+   - 提供模板和示例选择器
+   
    ```python
    from langchain import PromptTemplate
-
+   
    template = "What is a good name for a company that makes {product}?"
    prompt = PromptTemplate(
        input_variables=["product"],
        template=template,
    )
-
+   
    print(prompt.format(product="eco-friendly water bottles"))
    ```
-
 3. 索引（Indexes）：
-    - 构建和管理文档索引
-    - 支持各种文档加载器和文本分割器
-
+   
+   - 构建和管理文档索引
+   - 支持各种文档加载器和文本分割器
+   
    ```python
    from langchain.document_loaders import TextLoader
    from langchain.indexes import VectorstoreIndexCreator
-
+   
    loader = TextLoader('data.txt')
    index = VectorstoreIndexCreator().from_loaders([loader])
-
+   
    query = "What is the main topic of the document?"
    print(index.query(query))
    ```
-
 4. 链（Chains）：
-    - 将多个组件组合成一个应用
-    - 支持顺序执行和条件分支
-
+   
+   - 将多个组件组合成一个应用
+   - 支持顺序执行和条件分支
+   
    ```python
    from langchain.chains import LLMChain
    from langchain.llms import OpenAI
    from langchain.prompts import PromptTemplate
-
+   
    llm = OpenAI(temperature=0.9)
    prompt = PromptTemplate(
        input_variables=["product"],
        template="What is a good name for a company that makes {product}?",
    )
-
+   
    chain = LLMChain(llm=llm, prompt=prompt)
    print(chain.run("colorful socks"))
    ```
-
 5. 代理（Agents）：
-    - 创建能够使用工具和做出决策的自主代理
-    - 支持多种代理类型和工具集成
-
+   
+   - 创建能够使用工具和做出决策的自主代理
+   - 支持多种代理类型和工具集成
+   
    ```python
    from langchain.agents import load_tools
    from langchain.agents import initialize_agent
    from langchain.agents import AgentType
    from langchain.llms import OpenAI
-
+   
    llm = OpenAI(temperature=0)
    tools = load_tools(["serpapi", "llm-math"], llm=llm)
    agent = initialize_agent(tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True)
-
+   
    agent.run("Who is Leo DiCaprio's girlfriend? What is her current age raised to the 0.43 power?")
    ```
-
 6. 记忆（Memory）：
-    - 管理对话历史和上下文信息
-    - 提供多种记忆类型，如对话缓冲和摘要
-
+   
+   - 管理对话历史和上下文信息
+   - 提供多种记忆类型，如对话缓冲和摘要
+   
    ```python
    from langchain import OpenAI, ConversationChain
    from langchain.memory import ConversationBufferMemory
-
+   
    llm = OpenAI(temperature=0)
    conversation = ConversationChain(
        llm=llm, 
        verbose=True, 
        memory=ConversationBufferMemory()
    )
-
+   
    conversation.predict(input="Hi there!")
    conversation.predict(input="I'm doing well! Just having a conversation with an AI.")
    conversation.predict(input="Tell me about our conversation so far.")
@@ -783,24 +780,23 @@ LangChain特别适合开发复杂的AI Agent。它提供了多种工具和抽象
 
 1. 工具集成：
    LangChain允许轻松集成各种工具，如搜索引擎、计算器、API等。
-
+   
    ```python
    from langchain.agents import load_tools
    from langchain.agents import initialize_agent
    from langchain.llms import OpenAI
-
+   
    llm = OpenAI(temperature=0)
    tools = load_tools(["serpapi", "llm-math"], llm=llm)
    agent = initialize_agent(tools, llm, agent="zero-shot-react-description", verbose=True)
    ```
-
 2. 自定义工具：
    你可以创建自定义工具并将其添加到Agent中。
-
+   
    ```python
    from langchain.tools import Tool
    from langchain.utilities import GoogleSearchAPIWrapper
-
+   
    search = GoogleSearchAPIWrapper()
    tools = [
        Tool(
@@ -811,36 +807,33 @@ LangChain特别适合开发复杂的AI Agent。它提供了多种工具和抽象
    ]
    agent = initialize_agent(tools, llm, agent="zero-shot-react-description", verbose=True)
    ```
-
 3. 记忆管理：
    LangChain提供了多种记忆类型，使Agent能够维护对话历史和上下文。
-
+   
    ```python
    from langchain.memory import ConversationBufferMemory
-
+   
    memory = ConversationBufferMemory(memory_key="chat_history")
    agent = initialize_agent(tools, llm, agent="conversational-react-description", memory=memory, verbose=True)
    ```
-
 4. 链式操作：
    你可以使用链来创建复杂的处理流程，例如结合文档检索和问答。
-
+   
    ```python
    from langchain.chains import RetrievalQA
    from langchain.document_loaders import TextLoader
    from langchain.indexes import VectorstoreIndexCreator
-
+   
    loader = TextLoader('data.txt')
    index = VectorstoreIndexCreator().from_loaders([loader])
    qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=index.vectorstore.as_retriever())
    ```
-
 5. 提示模板：
    使用提示模板可以更灵活地控制Agent的行为。
-
+   
    ```python
    from langchain.prompts import PromptTemplate
-
+   
    template = """
    You are an AI assistant for answering questions about the given text.
    
@@ -848,16 +841,15 @@ LangChain特别适合开发复杂的AI Agent。它提供了多种工具和抽象
    
    Human: {human_input}
    AI: """
-
+   
    prompt = PromptTemplate(
        input_variables=["context", "human_input"],
        template=template
    )
    ```
-
 6. 多Agent系统：
    LangChain支持创建多个相互作用的Agent。
-
+   
    ```python
    from langchain.agents import Tool
    from langchain.agents import AgentType
@@ -865,7 +857,7 @@ LangChain特别适合开发复杂的AI Agent。它提供了多种工具和抽象
    from langchain.chat_models import ChatOpenAI
    from langchain.utilities import SerpAPIWrapper
    from langchain.agents import initialize_agent
-
+   
    search = SerpAPIWrapper()
    tools = [
        Tool(
@@ -874,12 +866,12 @@ LangChain特别适合开发复杂的AI Agent。它提供了多种工具和抽象
            description="useful for when you need to answer questions about current events or the current state of the world"
        ),
    ]
-
+   
    memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
-
+   
    llm=ChatOpenAI(temperature=0)
    agent_chain = initialize_agent(tools, llm, agent=AgentType.CHAT_CONVERSATIONAL_REACT_DESCRIPTION, verbose=True, memory=memory)
-
+   
    agent_chain.run(input="Hi, I'm Bob")
    agent_chain.run(input="What's the weather like in SF?")
    agent_chain.run(input="Thanks for the info! By the way, what's my name?")
@@ -1186,19 +1178,20 @@ loaded_index = load_index_from_storage(storage_context)
 本章深入探讨了OpenAI API、LangChain和LlamaIndex这三个强大的工具和框架，它们在现代AI应用开发中扮演着关键角色：
 
 1. OpenAI API：
-    - 提供了访问先进语言模型（如GPT-3和GPT-4）的能力
-    - 支持各种NLP任务，包括文本生成、问答、分类等
-    - 通过函数调用功能实现了更灵活的工具使用
-
+   
+   - 提供了访问先进语言模型（如GPT-3和GPT-4）的能力
+   - 支持各种NLP任务，包括文本生成、问答、分类等
+   - 通过函数调用功能实现了更灵活的工具使用
 2. LangChain：
-    - 提供了一个完整的框架，用于构建基于语言模型的应用
-    - 包含了提示管理、链式操作、记忆管理等关键功能
-    - 特别适合开发复杂的AI Agent
-
+   
+   - 提供了一个完整的框架，用于构建基于语言模型的应用
+   - 包含了提示管理、链式操作、记忆管理等关键功能
+   - 特别适合开发复杂的AI Agent
 3. LlamaIndex：
-    - 专注于高效地将外部数据整合到语言模型应用中
-    - 提供了多种索引策略和查询方法
-    - 非常适合构建基于RAG的系统
+   
+   - 专注于高效地将外部数据整合到语言模型应用中
+   - 提供了多种索引策略和查询方法
+   - 非常适合构建基于RAG的系统
 
 这三个工具的组合使用可以极大地提高AI应用的开发效率和性能：
 
@@ -1238,3 +1231,4 @@ loaded_index = load_index_from_storage(storage_context)
 5. 考虑伦理和隐私问题，确保AI应用的负责任使用
 
 通过掌握OpenAI API、LangChain和LlamaIndex，开发者可以站在巨人的肩膀上，创造出前所未有的智能应用。这不仅将提升用户体验，也将为各个行业带来创新和效率的提升。随着这些工具和相关技术的不断发展，我们正在见证AI应用开发的新时代的到来。
+
